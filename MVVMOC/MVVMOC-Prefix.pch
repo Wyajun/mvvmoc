@@ -1,0 +1,21 @@
+//
+//  Jiadao-Prefix.pch
+//  jiadao_ios
+//
+//  Created by 仲维涛 on 15/5/29.
+//  Copyright (c) 2015年 仲维涛. All rights reserved.
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #import "Consts.h"
+    #import "UIColor+HexColor.h"
+    #import "UIView+RMAdditions.h"
+    #import "Masonry.h"
+    #import "UIViewController+JDCommon.h"
+    #import "Resource.h"
+    #import "UIColor+system.h"
+    #import "UIFont+system.h"
+#endif
